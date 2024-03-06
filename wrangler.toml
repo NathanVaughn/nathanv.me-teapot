@@ -1,0 +1,6 @@
+name = "nathanv-me-teapot"
+main = "./index.js"
+compatibility_date = "2024-03-05"
+routes = [
+	{ pattern = "nathanv.me/teapot", zone_name = "nathanv.me" }
+]

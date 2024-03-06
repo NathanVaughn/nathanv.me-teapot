@@ -1,0 +1,15 @@
+{
+	"name": "nathanv.me-teapot",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy index.js",
+		"dev": "wrangler dev index.js"
+	},
+	"devDependencies": {
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"http-status-codes": "^2.3.0"
+	}
+}
