@@ -1,6 +1,9 @@
-name = "nathanv-me-teapot"
-main = "./index.js"
+name               = "nathanv-me-teapot"
+main               = "src/index.js"
 compatibility_date = "2024-03-05"
-routes = [
-	{ pattern = "nathanv.me/teapot", zone_name = "nathanv.me" }
-]
+
+routes = [{ pattern = "nathanv.me/teapot", zone_name = "nathanv.me" }]
+
+[[r2_buckets]]
+    binding     = 'BUCKET'
+    bucket_name = 'nathanv-public'
