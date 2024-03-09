@@ -4,12 +4,15 @@
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
-		"dev": "wrangler dev"
+		"dev": "wrangler dev",
+		"generate-types": "wrangler types src/worker-configuration.d.ts"
 	},
 	"devDependencies": {
-		"wrangler": "^3.0.0"
+		"wrangler": "^3.32.0"
 	},
 	"dependencies": {
-		"http-status-codes": "^2.3.0"
+		"@cloudflare/workers-types": "^4.20240222.0",
+		"http-status-codes": "^2.3.0",
+		"typescript": "^5.4.2"
 	}
 }
