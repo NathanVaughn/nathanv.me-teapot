@@ -14,7 +14,8 @@
                 "DavidAnson.vscode-markdownlint",
                 "mushan.vscode-paste-image",
                 "actboy168.tasks",
-                "shardulm94.trailing-spaces"
+                "shardulm94.trailing-spaces",
+                "github.vscode-github-actions"
             ]
         }
     },
