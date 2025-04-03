@@ -8,7 +8,7 @@
 		"generate-types": "wrangler types src/worker-configuration.d.ts"
 	},
 	"devDependencies": {
-		"wrangler": "^3.107.3"
+		"wrangler": "^4.0.0"
 	},
 	"dependencies": {
 		"@cloudflare/workers-types": "^4.20250204.0",
