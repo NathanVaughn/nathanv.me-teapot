@@ -7,7 +7,6 @@
             "esnext"
         ],
         "strict": true,
-        "moduleResolution": "node",
         "types": [
             "@cloudflare/workers-types"
         ]

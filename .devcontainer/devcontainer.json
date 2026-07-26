@@ -1,6 +1,6 @@
 {
     "image": "ghcr.io/nathanvaughn/devcontainers/node:latest",
-    "postCreateCommand": "npm install",
+    "postCreateCommand": "fnm install &fnm use && npm install",
     "customizations": {
         "vscode": {
             "extensions": [
